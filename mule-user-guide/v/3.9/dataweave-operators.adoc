@@ -1809,7 +1809,7 @@ Returns true or false depending on if a string ends with a provided substring.
 
 .(':string', ':string')/.(':string', ':regex') => ':array'
 
-Given a string, it returns the index position within the string at which a match was matched. If found in multiple parts of the string, it returns an array with the various idex positions at which it was found. You can either look for a simple string or a regular expression.
+Given a string, it returns the index position within the string at which a match was matched. If found in multiple parts of the string, it returns an array with the various index positions at which it was found. You can either look for a simple string or a regular expression.
 
 .Transform
 [source,DataWeave, linenums]
